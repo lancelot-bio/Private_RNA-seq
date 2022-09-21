@@ -1,0 +1,8 @@
+# Path to an uncompressed FASTA file with all transcript sequences.
+GTF: '/home/junzhang/BX.genome/GETA.result/BX.V3.GeneModels.gff3'
+GENOME: '/home/junzhang/BX.genome/BX.LG.fasta'
+OUT_DIR: '/home/junzhang/0818_SI-RNA-seq/OUT_DIR'
+# Path to a JSON file with samples and their corresponding FASTQ files.
+SAMPLES_JSON: '/home/junzhang/0818_SI-RNA-seq/RNA-seq-snakemake-pipeline/samples.json'
+# Scripts to handle downstream analysis
+PrepDE: '/home/junzhang/0818_SI-RNA-seq/RNA-seq-snakemake-pipeline/Scripts/prepDE.py3'
